@@ -1,0 +1,6 @@
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": ["@babel/plugin-proposal-object-rest-spread"]
+}
+//o preset-env vai entender o ambiente de trabalho atual(ex:navegador), vai converter as funcionalidades do Ecma 
+// pra que o navegador entenda

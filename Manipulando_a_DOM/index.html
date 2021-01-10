@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app"> <!--disparando eventos do HTML p/ o Javascript, não recomendado pois polui o código-->
+    <button style="background-color: blue;" onclick="mostraAlerta()" >Me Pressione</button>
+    <input onkeyup="mostraAlerta()" />
+  </div>
+
+  <div id="app1">
+    <input class="nome" type="text" name="nome" id="nome">
+    <button class="botao">Adcionar</button>
+  </div>
+
+  <script src="index.js">
+    //código js sempre na tag script, último no body
+    //o correto não é escrever código js aqui
+    //deve se escrever num arquivo.js separado e referenciá-lo
+    //é o q estou fazendo
+  </script>
+
+</body>
+</html>
